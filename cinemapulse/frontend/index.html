@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemapulse: Customer Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cinemapulse: Real-Time Customer Feedback</h1>
+        
+        <div id="feedback-form">
+            <h2>Submit Your Feedback</h2>
+            <textarea id="feedback" placeholder="Write your feedback here..." rows="4" cols="50"></textarea>
+            <button onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+
+        <div id="sentiment-data">
+            <h2>Real-Time Feedback Sentiment</h2>
+            <ul id="sentiment-list">
+                <!-- Sentiment data will be populated here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
